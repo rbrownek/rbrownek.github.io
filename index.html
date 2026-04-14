@@ -4,9 +4,33 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Home</title>
+	  <link rel="stylesheet" href="index.css">
+
+	<script>
+    function load(page) {
+      document.getElementById('content').src = page;
+    }
+  </script>
 </head>
 
 <body>
-  <h1>Welcome</h1>
+	<div id="bar">
+		<div>
+			<a onclick="load('projects.html')">Projects</a>
+		</div>
+		<div>
+			<a onclick="load('demos.html')">Demos</a>
+		</div>
+
+		<div>
+			<a href="files/RyleighJanae_Brown-Ekweonu_Resume_26.pdf" download>Janae Brown-Ekweonu's Resume</a>
+		</div>
+
+		<div>
+			<a href="https://linkedin.com/in/janae-brown-ekweonu" target="_blank"><img src="images/linkedin.png" alt="linkedin.png" height=50px width=50px></a>
+		</div>
+  	</div>
+  <iframe id="content" src="intro.html"></iframe>
+  
 </body>
 </html>

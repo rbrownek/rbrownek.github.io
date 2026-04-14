@@ -4,3 +4,29 @@
     --light:#c539b4;
     --dark:#852999;
 }
+
+html{
+    background-color:var(--tan);
+}
+
+a{
+    cursor: pointer;
+    color:black;
+}
+
+
+
+#bar{
+    display:flex;
+    gap:20px;
+    border:10px groove var(--dark);
+    justify-content: space-between;
+    align-items: center;
+    font-size:25px;
+    padding:5px;
+}
+
+#content{
+    width:100%;
+
+}
