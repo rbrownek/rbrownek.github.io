@@ -1,0 +1,36 @@
+.project-space{
+    display:grid;
+    grid-template-columns: repeat(3, 3fr);
+    gap: 20px;
+    justify-content: space-between;
+}
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:15px;
+}
+
+.card{
+    border: 8px solid var(--light_orange);
+    cursor: pointer;
+    padding:5px;
+    width:500px;
+    border-radius: 8px;
+}
+
+.card:hover{
+    border: 8px solid var(--orange);
+    box-shadow:0 4px 8px var(--charcoal);
+
+
+
+
+}
+
+.format,.when{
+    border-bottom: 2px solid var(--light_orange);
+
+}
+
+
