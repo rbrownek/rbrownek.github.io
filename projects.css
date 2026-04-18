@@ -1,6 +1,6 @@
 .project-space{
     display:grid;
-    grid-template-columns: repeat(3, 3fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     justify-content: space-between;
 }
@@ -12,15 +12,15 @@
 }
 
 .card{
-    border: 8px solid var(--light_orange);
+    border: 8px groove var(--light_orange);
     cursor: pointer;
     padding:5px;
-    width:500px;
+    width:450px;
     border-radius: 8px;
 }
 
 .card:hover{
-    border: 8px solid var(--orange);
+    border: 8px groove var(--rose);
     box-shadow:0 4px 8px var(--charcoal);
 
 
@@ -32,5 +32,3 @@
     border-bottom: 2px solid var(--light_orange);
 
 }
-
-

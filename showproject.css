@@ -1,0 +1,52 @@
+.project-info{
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+    height:800px;
+    display:flex;
+    border:3px solid black;
+}
+
+.button{
+    display:flex;
+    justify-content: end;
+}
+
+
+
+.info-space{
+    background:var(--tan);
+    border:2px groove var(--light);
+    border-radius:10px;
+    align-items:center;
+    justify-content:center;
+    height:570px;
+
+
+    
+
+
+}
+
+.info-header{
+    display:flex;
+    gap:20px;
+    justify-content: space-between;
+    padding:15px;
+}
+ 
+.info-description{
+    text-align:center;
+}
+.close{
+    border:none;
+    width:60px;
+    background:transparent;
+    border-radius:10px;
+    font-size:30pt;
+    color:var(--mauve);
+}
+.close:hover{
+    background:var(--rose);
+
+}
