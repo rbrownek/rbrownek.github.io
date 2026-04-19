@@ -25,6 +25,17 @@ a{
 
 }
 
+.nav.active{
+    background:var(--rose);
+    border-radius: 10px;
+    font-weight:bold;
+}
+
+.nav:hover{
+    background:var(--taupe);
+    border-radius:10px;
+}
+
 
 
 #bar{
@@ -35,6 +46,7 @@ a{
     align-items: center;
     padding:5px;
     height:55px;
+    visibility: hidden;
 
     
 
@@ -68,8 +80,12 @@ a{
     text-align: center;
     width:300px;
     cursor:pointer;
+    border:none;
 
 }
 #introbtn:hover{
     background-color:var(--orange);
+}
+h1{
+    text-align: center;
 }

@@ -5,24 +5,19 @@
 	<meta charset="utf-8" />
 	<title>Home</title>
 	<link rel="stylesheet" href="index.css">
+	<script src="index.js" defer></script>
 
-	<script>
-    function load(page) {
-      document.getElementById('content').src = page;
-    }
-  </script>
-    <script src="projects.js" defer></script>
 
 </head>
 
 <body>
 	<div id="bar">
 		
-		<div>
-			<a onclick="load('demos.html')">Course Info</a>
+		<div >
+			<a onclick="load('courses.html')" class="nav" id="courses">Course Info</a>
 		</div>
-		<div>
-			<a onclick="load('projects.html')">Projects</a>
+		<div >
+			<a onclick="load('projects.html')" class="nav" id="projects">Projects</a>
 		</div>
 		<div>
 			<a href="files/RyleighJanae_Brown-Ekweonu_Resume_26.pdf" download>Janae Brown-Ekweonu's Resume</a>
@@ -34,5 +29,6 @@
   	</div>
   <iframe id="content" name="content" src="intro.html"></iframe>
   
+ 
 </body>
 </html>

@@ -9,18 +9,17 @@
 
 .button{
     display:flex;
-    justify-content: end;
+    justify-content: space-between;
 }
 
 
 
 .info-space{
     background:var(--tan);
-    border:2px groove var(--light);
+    border:5px groove var(--mauve);
     border-radius:10px;
     align-items:center;
     justify-content:center;
-    height:570px;
 
 
     
@@ -32,7 +31,9 @@
     display:flex;
     gap:20px;
     justify-content: space-between;
+    align-items:center;
     padding:15px;
+    font-weight: bold;
 }
  
 .info-description{
@@ -48,5 +49,11 @@
 }
 .close:hover{
     background:var(--rose);
+
+}
+.demo-space{
+    display:flex;
+    justify-content: center;
+    align-items: center;
 
 }

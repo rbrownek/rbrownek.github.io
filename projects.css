@@ -19,7 +19,7 @@
     border-radius: 8px;
 }
 
-.card:hover{
+.card:hover, .card.active{
     border: 8px groove var(--rose);
     box-shadow:0 4px 8px var(--charcoal);
 

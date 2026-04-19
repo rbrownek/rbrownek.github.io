@@ -1,0 +1,21 @@
+.course-space{
+    display:flex;
+    flex-direction: column;
+    gap:25px;
+    margin-top:20px;
+
+}
+
+.card{
+    border:8px groove var(--taupe);
+    padding:8px;
+}
+
+.header{
+    border-bottom:3px groove var(--mauve);
+    display:flex;
+    justify-content: space-between;
+    gap:15px;
+    margin-bottom:10px;
+    font-weight:bold;
+}
