@@ -7,7 +7,7 @@ const course_space=document.querySelector(".course-space");
         card.innerHTML=`
             <div class="header">
             <div class="course">${course.classification}</div>
-            <div class="when">Took in: ${course.when}</div>
+            <div class="when">Semester: ${course.when}</div>
             </div>
             <div class="info">${course.course_info}</div>
         `;
