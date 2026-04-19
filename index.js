@@ -7,7 +7,7 @@ let projects =[
   format: "Language: Ocaml",
   description: "This project focused on the concept of non-deterministic finite automata (NFA) and deterministic finite automata (DFA) which are finite state machines.",
   info: [
-    "A finite state machine (FSM) is an abstract machine that can be in one of its finite states at a time. Each state represents an accept or decline. The FSM in this project represented regular expressions and could move between states based on letters Some notable functions I had to implement for this project were: accept, NFA to DFA, and Regex to NFA",
+    "A finite state machine (FSM) is an abstract machine that can be in one of its finite states at a time. Each state represents an accept or decline. The FSM in this project represented regular expressions and could move between states based on letters. Some notable functions I had to implement for this project were: accept, NFA to DFA, and Regex to NFA",
     "Accept: Took a NFA and string as input and returned true if the string was accepted by the regular expression represented by the NFA. Determined if the NFA ended up in an accept state based on the letters in the string",
     "NFA to DFA: Took a NFA as input and returned the equivalent DFA",
     "Regex to NFA: Took in a regular expression as input and returned the NFA that accepts the same language as regex",
@@ -60,7 +60,7 @@ let projects =[
     classification:"Innovations in Countering Violent Extremism | BSST 335",
     when:"Fall 25",
     format:"Essay",
-    description:"Program Proposal designed to prevent far-right extremism in Upstate New York through early identification and intervention in High Schools",
+    description:"Program Proposal designed to prevent far-right extremism in Upstate New York through early identification and intervention in High Schools.",
     info:["Group Project", "Program informed by Significance Quest Theory (SQT) using primary, secondary, and tertiary levels of prevention, consistent with public health framework."],
     demo: "https://drive.google.com/embeddedfolderview?id=1B7Jq-n8G8OMU8Tenh71pzdoxIy7tIXAt#grid",
     course_info:"Students will explore theories of community outreach, community intervention, risk communication and offender rehabilitation, drawing on the disciplines of psychology, sociology, criminology, anthropology, communication, and political science. They will also examine teaching cases of authentic, community-based Countering Violent Extremism (CVE) initiatives. This courses teaches students how to design programs that prevent radicalization. Students create, in teams, original, actionable CVE proposals for community-based interventions, focusing on cultural competence, outreach, and designing alternatives to terrorist violence."
@@ -83,7 +83,7 @@ let projects =[
     description:"Group design and implementation of a mobile app prototype for managing household kitchen inventory, shopping lists, and cooking.",
     info:["Group Project","My group is currently in the medium fidelity prototyping stage for our app. In this stage we have improved our design based on feedback from our low fidelity prototype.","Use of GitHub for collaboration and version control", "Implementation of the recipes feature that showcases instructions and ingredients list, allows the user to favorite/unfavorite a recipe, filter based on breakfast, lunch, and dinner, and add missing ingredients to the shopping list"],
     demo: "https://drive.google.com/embeddedfolderview?id=1ZDNScfIlCPvsvtuiDQWRf78e4kwNN_ay#grid",
-    course_info:"Introduction to Human-Computer Interaction, focusing on user-centered design, usability testing, and interface design principles. Key topics include design processes (analysis, prototyping, evaluation), user experience, and cognitive psychology. It features a semester-long group project, involving prototyping and user studies"
+    course_info:"Introduction to Human-Computer Interaction, focusing on user-centered design, usability testing, and interface design principles. Key topics include design processes (analysis, prototyping, evaluation), user experience, and cognitive psychology. It features a semester-long group project, involving prototyping and user studies."
 }
 ];
 
